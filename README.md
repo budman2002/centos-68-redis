@@ -1,7 +1,7 @@
 centos-68-redis
 ===============
 
-Provision a CentOS 6.8 box with the latest stable Redis
+Provision a CentOS 6.8 box with the latest stable Redis using Packer
 
 Adapted from the project: packer-centos-7 (https://github.com/hfm/packer-centos-7)
 
@@ -13,22 +13,22 @@ Feel free to submit issues and enhancement requests.
 Contributing
 ------------
 
-Please refer to each project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+Please refer to each project's style guidelines and guidelines for submitting patches and additions. In general, follow the "fork-and-pull" Git workflow.
 
  1. **Fork** the repo on GitHub
-  2. **Clone** the project to your own machine
-   3. **Commit** changes to your own branch
-    4. **Push** your work back up to your fork
-     5. Submit a **Pull request** so that we can review your changes
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
 
      NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
-     Copyright and Licensing
-     -----------------------
+Copyright and Licensing
+-----------------------
 
-     Contributing does not require you to assign the copyright of your contributions, you retain the copyright. Contributors are requested to make your contributions available under the MIT license in order to be included in the main repo.
+ Contributing does not require you to assign the copyright of your contributions, you retain the copyright. Contributors are requested to make your contributions available under the MIT license in order to be included in the main repo.
 
-     If appropriate, include the MIT license summary at the top of each file along with the copyright info. If you are adding a new file that you wrote, include your name in the copyright notice in the license summary at the top of the file.
+If appropriate, include the MIT license summary at the top of each file along with the copyright info. If you are adding a new file that you wrote, include your name in the copyright notice in the license summary at the top of the file.
 
 ### License Summary
 
