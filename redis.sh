@@ -23,16 +23,6 @@ xfs_growfs -d /dev/VolGroup/lv_varlibredis
 echo "--------------------------------"
 
 
-##echo "Adding mongodb.org's repository to /etc/yum.repos.d"
-##cat << 'EOF' > /etc/yum.repos.d/mongodb-org-3.4.repo
-##[mongodb-org-3.4]
-##name=MongoDB Repository
-##baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64/
-##gpgcheck=1
-##enabled=1
-##gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
-##EOF
-##echo "---------------------------------------------------"
 echo "Making EPEL repository available"
 rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 echo "--------------------------------"
@@ -48,6 +38,8 @@ cd redis-stable
 make && make test && make install
 
 # 3) run the install script via expect - accept all defaults except redis-server executable location: /usr/local/bin/redis-server
+# Expect via the typical script...
+#
 #Please select the redis port for this instance: [6379] 
 #Selecting default: 6379
 #Please select the redis config file name [/etc/redis/6379.conf] 
